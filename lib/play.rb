@@ -38,5 +38,6 @@ end
 # Define your play method below
 def play(board)
     turn = 0
+    turn(board)
 #while a condition is true, call turn(board) 9 times
 end
