@@ -37,5 +37,5 @@ end
 
 # Define your play method below
 def play(board)
-    return "1"
+    turn(board)
 end
