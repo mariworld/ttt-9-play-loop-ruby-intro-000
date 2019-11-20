@@ -37,8 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-    while turn < 9
-        turn = gets.strip
-        turn += 1
+    9.times turn do
+        while turn < 9
+            gets
     end
 end
