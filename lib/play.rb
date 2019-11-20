@@ -37,7 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-    while move(board,index) == true
-        turn(board)
-    end
+    turn = 0
+#while a condition is true, call turn(board) 9 times
 end
