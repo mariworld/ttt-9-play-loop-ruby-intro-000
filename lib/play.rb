@@ -41,5 +41,6 @@ def play(board)
     while turn < 8
         counter += 1
         turn(board)
+    end
 #while a condition is true, call turn(board) 9 times
 end
