@@ -37,4 +37,8 @@ end
 
 # Define your play method below
 def play(board)
+    turn = gets.chomp
+    while turn < 9
+        turn +=1
+    end
 end
